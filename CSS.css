@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: 'Quicksand', sans-serif; /* Fuente redondeada y tierna */
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; /* Morado pastel */
+    color: #000000; /* Negro */
+}
+
+/* Título principal */
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4a148c; /* Morado más oscuro */
+    margin: 0;
+    padding: 0;
+}
+/* Barra de navegación */
+.w3-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1c4e9; /* Morado pastel más oscuro */
+    color: #000000; /* Negro */
+}
+
+.w3-bar-item {
+    padding: 16px;
+    text-decoration: none;
+    color: #000000; /* Negro */
+}
+
+.w3-bar-item img {
+    margin: auto;
+}
+
+/* Sección principal */
+.w3-container {
+    background-color: #ffffff; /* Blanco */
+    padding: 32px;
+    border-radius: 10px;
+}
+
+/* Imágenes */
+.w3-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #d1c4e9; /* Borde morado pastel */
+    border-radius: 8px;
+}
+
+.w3-row-padding {
+    margin-bottom: 16px;
+}
+
+/* Título Últimos lanzamientos */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000; /* Negro */
+    border-bottom: 3px solid #d1c4e9; /* Línea inferior morado pastel */
+    padding-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+    margin: 0px 50px;
+}
+
+
+
+.seccion1 {
+    background-image: url(bebidas\ en\ carton.jpg);
+}
+
+.seccion2 {
+    background-image: url(empaques\ de\ platico.jpg);
+}
+
+.seccion3 {
+    background-image: url(souvenirs.webp);
+}
+
+.seccion1,
+.seccion2,
+.seccion3 {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subseccion {
+    background-color: rgba(255, 255, 255, 0);
+    width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.centrar{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.icono {
+    width: 3em;
+    height: 3em;
+
+}
+
+.titu {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

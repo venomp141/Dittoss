@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FADADD; /* Fondo rosado */
+    color: #333;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ecdeff; /* Fondo rosado */
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #3c2177; /* Letras moradas */
+}
+
+.menu {
+    background-color: #dddddd; /* Color plomo */
+    padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+}
+
+.menu ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+.menu ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A9A9A9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Se coloca debajo del menú principal */
+}
+
+.menu ul li .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu ul li .dropdown-content a:hover {
+    background-color: #5a5a5a;
+}
+
+.menu ul li:hover .dropdown-content {
+    display: block;
+}
+
+.split-screen {
+    display: flex;
+    height: calc(100vh - 200px); /* Ajuste para tener en cuenta el espacio del título y menú */
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.right {
+    background-color: #FADADD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Centra el texto */
+    padding: 40px;
+}
+
+.right h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.right h3 {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.right p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.price-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el precio y el botón */
+    margin-top: 20px;
+}
+
+.precio {
+    font-size: 1.5rem;
+    color: #800080; /* Morado */
+    margin-right: 20px;
+}
+
+button {
+    background-color: #800080; /* Morado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a005a; /* Morado oscuro */
+}
+
